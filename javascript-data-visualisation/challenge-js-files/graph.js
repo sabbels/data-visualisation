@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
           return dataForCountry ? dataForCountry.data : null;
         }),
         backgroundColor:
-          index === 0 ? "rgba(75, 192, 192, 0.2)" : "rgba(255, 99, 132, 0.2)", // Couleur différente pour chaque année   -TABLE2
+          index === 0 ? "rgba(75, 192, 192, 0.2)" : "rgba(255, 99, 132, 0.2)", 
         borderColor:
           index === 0 ? "rgba(75, 192, 192, 1)" : "rgba(255, 99, 132, 1)",
         borderWidth: 1,
